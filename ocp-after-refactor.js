@@ -17,3 +17,10 @@ interfaceCalculatePay.setPayFunctionByType('COMMISSIONED', (employee) => `${empl
 
 
 console.log('getPayByEmployee after ocp refactor: ', getPayByEmployee(employee));
+
+// Other examples of open closed principle:
+  // plugins!  for example: minecraft, wordpress, chrome, vsCode, etc, etc,
+
+// kinda:
+  // react high order components (it's a wrapper so you can use a simple view component)
+  // composable components (reusable components)
