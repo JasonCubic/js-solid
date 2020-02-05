@@ -16,7 +16,7 @@ const employee = {
 interfaceCalculatePay.setPayFunctionByType('COMMISSIONED', (employee) => `${employee.name} paid per each commission`);
 
 
-console.log('getPayByEmployee after ocp refactor: ', getPayByEmployee(employee));
+console.log('\ngetPayByEmployee after ocp refactor: ', getPayByEmployee(employee));
 
 // Other examples of open closed principle:
   // plugins!  for example: minecraft, wordpress, chrome, vsCode, etc, etc,

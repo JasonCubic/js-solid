@@ -1,0 +1,20 @@
+
+module.exports.getTaxonomy = () => console.log('getTaxonomy');
+module.exports.upsertTaxonomy = () => console.log('upsertTaxonomy');
+module.exports.getMapByRegion = () => console.log('getMapByRegion');
+module.exports.getMapByCounty = () => console.log('getMapByCounty');
+module.exports.getMapByLatLon = () => console.log('getMapByLatLon');
+module.exports.createUser = () => console.log('createUser');
+module.exports.getUserDetails = () => console.log('getUserDetails');
+module.exports.setUserRole = () => console.log('setUserRole');
+module.exports.setUserPersonalInfo = () => console.log('setUserPersonalInfo');
+module.exports.setUserSecurity = () => console.log('setUserSecurity');
+module.exports.authorizeUser = () => console.log('authorizeUser');
+module.exports.banUser = () => console.log('banUser');
+module.exports.unbanUser = () => console.log('unbanUser');
+module.exports.getArticleSummary = () => console.log('getArticleSummary');
+module.exports.getArticleByRange = () => console.log('getArticleByRange');
+module.exports.getArticleById = () => console.log('getArticleById');
+module.exports.saveArticleAsDraft = () => console.log('saveArticleAsDraft');
+module.exports.publishArticle = () => console.log('publishArticle');
+module.exports.unpublishArticle = () => console.log('unpublishArticle');

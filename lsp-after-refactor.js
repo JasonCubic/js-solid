@@ -7,7 +7,7 @@ const interfaceAdminRoles = require('./3. LSP/mssql/interface-admin-roles.js');
 const userName = 'Peter Gibbons';
 const roleName = 'Worker Drone';
 
-console.log('saving an admin role');
+console.log('\nsaving an admin role');
 interfaceAdminRoles.saveAdminRole(userName, roleName);
 
 console.log('getting admin roles');

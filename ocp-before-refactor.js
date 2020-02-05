@@ -10,4 +10,4 @@ const employee = {
 };
 
 
-console.log('getPayByEmployee before ocp refactor: ', getPayByEmployee(employee));
+console.log('\ngetPayByEmployee before ocp refactor: ', getPayByEmployee(employee));

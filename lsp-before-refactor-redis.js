@@ -7,7 +7,7 @@ const roleName = 'Worker Drone';
 const hashKey = 'admin_roles';
 
 
-console.log('saving an admin role');
+console.log('\nsaving an admin role');
 client.hset(hashKey, userName, `{ "roleName": "${roleName}", "lastModified": "${new Date().toISOString()}" }`);
 
 
