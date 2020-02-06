@@ -32,7 +32,7 @@ interfaceAdminRoles.getAdminRoles();
 
 
 // potential problems
-  // consider: A tesla is a type of car therefore you should be able to do all car actives on the car.
+  // consider: A tesla is a type of car therefore you should be able to do all car actives on the tesla.
 
   // this works for driving, but what about getting gas?
   // You sometimes have to really think and plan for these paradigm differences between specific types of things
