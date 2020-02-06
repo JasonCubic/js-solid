@@ -1,7 +1,7 @@
-const interfaceCalculatePay = require('./pay-formulas/interface-calculate-pay.js');
+const factoryCalculatePay = require('./pay-formulas/factory-calculate-pay.js');
 
 function calculatePay(employee) {
-  const payFunction = interfaceCalculatePay.getPayFunctionByType(employee.type);
+  const payFunction = factoryCalculatePay.getPayFunctionByType(employee.type);
   return payFunction(employee);
 }
 

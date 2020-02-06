@@ -26,4 +26,3 @@ function setPayFunctionByType(type, payFunction) {
 
 module.exports.getPayFunctionByType = getPayFunctionByType;
 module.exports.setPayFunctionByType = setPayFunctionByType;
-

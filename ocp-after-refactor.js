@@ -1,5 +1,5 @@
 const getPayByEmployee = require('./2. OCP/ocp-get-pay-by-employee.js');
-const interfaceCalculatePay = require('./2. OCP/pay-formulas/interface-calculate-pay');
+const factoryCalculatePay = require('./2. OCP/pay-formulas/factory-calculate-pay.js');
 
 
 // changed Peter Gibbons to a commissioned employee
@@ -13,7 +13,7 @@ const employee = {
 
 
 // add COMMISSIONED employee type pay function
-interfaceCalculatePay.setPayFunctionByType('COMMISSIONED', (employee) => `${employee.name} paid per each commission`);
+factoryCalculatePay.setPayFunctionByType('COMMISSIONED', (employee) => `${employee.name} paid per each commission`);
 
 
 console.log('\ngetPayByEmployee after ocp refactor: ', getPayByEmployee(employee));
