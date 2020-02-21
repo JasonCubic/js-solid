@@ -10,3 +10,13 @@ function saveOneColumnData(pgClient, tableName, columnName, dataArr) {
 }
 
 module.exports = saveOneColumnData;
+
+// what is functional programming?
+
+// what is a pure function?
+// What makes code testable?
+
+
+// "Object-oriented programming makes code understandable by encapsulating moving parts.
+//  Functional programming makes code understandable by minimizing moving parts."
+//    - Michael Feathers

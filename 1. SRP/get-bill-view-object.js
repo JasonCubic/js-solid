@@ -10,7 +10,7 @@ function makeBillObj(itemCollection) {
       description: row.description,
       total: formatCurrency(row.quantity * row.price),
     })),
-    total: itemCollection.reduce((accumulator, item) => accumulator += item.quantity * item.price, 0),
+    total: formatCurrency(itemCollection.reduce((accumulator, item) => accumulator += item.quantity * item.price, 0)),
   }
 }
 

@@ -1,7 +1,7 @@
 # S.O.L.I.D.
 
 ## Single-Responsibility Principle (SRP)
-A class should have one and only one reason to change, meaning that a class should have only one job.Each method should have only one job.
+A class should have one and only one reason to change, meaning that a class should have only one job. Each method should have only one job.
 
 ## Open-Closed Principle (OCP)
 Classes or objects should be open for extension, but closed for modification.

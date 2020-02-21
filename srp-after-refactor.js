@@ -11,6 +11,8 @@ const bill = [
 
 console.log('\ngetBillObject after srp refactor: ');
 
+// console.log('bill object: ', getBillObject(bill));
+
 console.log(getBillTable(getBillObject(bill)));
 
 

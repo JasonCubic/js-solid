@@ -1,7 +1,7 @@
 const mssql = require('./library/mssql.js');
 
 
-function getAdminRoles(userName, roleName) {
+function getAdminRoles() {
   mssql.connect('mssql://username:password@localhost/database');
   const selectQueryString = `
     SELECT
