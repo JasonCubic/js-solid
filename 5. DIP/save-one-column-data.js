@@ -15,8 +15,10 @@ module.exports = saveOneColumnData;
 
 // what is a pure function?
 // What makes code testable?
+//    Kent Beck - Test Desiderata - https://www.youtube.com/playlist?list=PLlmVY7qtgT_lkbrk9iZNizp978mVzpBKl
 
 
 // "Object-oriented programming makes code understandable by encapsulating moving parts.
 //  Functional programming makes code understandable by minimizing moving parts."
 //    - Michael Feathers
+
